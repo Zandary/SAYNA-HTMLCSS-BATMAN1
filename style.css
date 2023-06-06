@@ -1,10 +1,12 @@
 html {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 body {
-  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
   background-image: url("../Assets/Illustrations/Bathome1.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -23,6 +25,7 @@ a:hover {
 }
 
 nav {
+  font-family: "Rajdhani", sans-serif;
   width: 100%;
   display: flex;
   align-items: center;
@@ -36,4 +39,36 @@ nav > div {
 }
 
 #hero {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero-content > p {
+  text-align: center;
+  width: 52%;
+}
+
+#btns-wrapper {
+  display: flex;
+  width: 70%;
+  height: 10%;
+  justify-content: space-evenly;
+}
+
+button {
+  display: flex;
+  all: unset;
+  background-color: yellow;
+  width: 40%;
+  height: 10%;
+  margin: 1%;
+  background: linear-gradient(0.25turn, #eddebf, #19587d);
 }
