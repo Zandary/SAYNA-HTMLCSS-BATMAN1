@@ -1,0 +1,39 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-image: url("../Assets/Illustrations/Bathome1.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: white;
+  width: 70%;
+  padding: 1vh 10% 0% 10%;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hero {
+}
