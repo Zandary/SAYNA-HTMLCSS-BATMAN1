@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,19 +32,31 @@
       <a href="#top"
         ><img
           id="up-arrow"
-          src="./assets/logos/logo_bat_flèche y.png"
+          src="./assets/logos/logo_bat_fleche y.png"
           alt="Up arrow"
           class="yellowTransition"
       /></a>
       <div class="reseaux">
-        <img class="yellowTransition" src="./assets/logos/icon_facebook y.png" alt="" />
-        <img class="yellowTransition" src="./assets/logos/icon_ig y.png" alt="" />
-        <img class="yellowTransition" src="./assets/logos/icon_tw y.png" alt="" />
+        <img
+          class="yellowTransition"
+          src="./assets/logos/icon_facebook y.png"
+          alt=""
+        />
+        <img
+          class="yellowTransition"
+          src="./assets/logos/icon_ig y.png"
+          alt=""
+        />
+        <img
+          class="yellowTransition"
+          src="./assets/logos/icon_tw y.png"
+          alt=""
+        />
       </div>
       <a href="#bottom"
         ><img
           id="down-arrow"
-          src="./assets/logos/logo_bat_flèche_2 y.png"
+          src="./assets/logos/logo_bat_fleche_2 y.png"
           alt="Down arrow"
           class="yellowTransition"
       /></a>
@@ -60,15 +73,15 @@
         <p><b>Il est Batman.</b></p>
 
         <div id="btns-wrapper">
-          <div class="button">VOIR LE HEROS</div>
-          <div class="button">LES ADVERSAIRES</div>
+          <div class="button" id="hero-btn">VOIR LE HEROS</div>
+          <div class="button" id="nemesisBtn">LES ADVERSAIRES</div>
         </div>
       </div>
       <img src="./assets/logos/flèche_down_header.png" />
     </div>
 
     <!-- Section cinéma -->
-    <div id="cinema">
+    <div id="cinema" class="sectionsContent">
       <h2>BATMAN AU CINÉMA</h2>
       <p class="text-justified">
         Le personnage de Batman est un super héros de l’univers de DC Comics. Il
@@ -109,8 +122,15 @@
       </div>
     </div>
 
-    <div id="nemesis">
-      <h2>NEMESIS</h2>
+    <div id="nemesis" class="sectionsContent">
+      <h2>
+        NEMESIS
+        <img
+          style="width: 10%"
+          src="./assets/illustrations/Bathome13.png"
+          alt=""
+        />
+      </h2>
       <p class="text-justified">
         Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il
         affrontera la plupart du temps, des vilains sans capacités surnaturelles
@@ -148,8 +168,8 @@
         </div>
       </div>
     </div>
-
-    <div id="allies">
+    <img src="./assets/illustrations/Bathome12.png" id="hanging" />
+    <div id="allies" class="sectionsContent">
       <h2>ALLIES</h2>
       <p class="text-justified">
         Alfred est le majordome des Wayne. A leur mort il s’occupe de
@@ -244,19 +264,18 @@
       </div>
 
       <!-- Bande annonce -->
-    <div id="ba-wrapper">
-      <iframe
-        poster="./assets/illustrations/Bathome_ba2.png"
-        width="720"
-        height="480"
-        src="https://www.youtube.com/embed/jXrFsn9pcZY"
-        title="Batman Begins - Bande Annonce Officielle (VF) - Christian Bale / Christopher Nolan / Liam Neeson"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+      <div id="ba-wrapper">
+        <iframe
+          width="720"
+          height="480"
+          src="https://www.youtube.com/embed/jXrFsn9pcZY"
+          title="Batman Begins - Bande Annonce Officielle (VF) - Christian Bale / Christopher Nolan / Liam Neeson"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
-
     <!-- Contact -->
     <div id="newsletter">
       <form id="news-form">
@@ -352,7 +371,7 @@
             La seule façon raisonnable de vivre en ce bas monde, <br />
             c'est en dehors des règles.
           </p>
-          <p>
+          <p style="font-size: 80%">
             The Dark Knight : Le chevalier Noir - <br />
             Le joker à Batman (2008)
           </p>
@@ -363,18 +382,43 @@
     </div>
 
     <footer>
-      <p>
+      <p style="font-size: 80%">
         <img src="./assets/logos/icon_WB.png" alt="" />
         Ce projet respecte l'univers cinématographique des films Batman récents.
         Version Nolan & Reeves
       </p>
       <div id="icons">
-        <div id="sayna"></div>
-        <div id="x"></div>
-        <div id="DC"></div>
-        <img class="yellowTransition" src="./assets/logos/logo_sayna_white y.png" alt="" />
-        <img src="./assets/logos/icon_x.png" alt="" />
-        <img class="yellowTransition" src="./assets/logos/icon_DC y.png" alt="" />
+        <div class="footerIcons">
+          <img
+            class="yellowTransition"
+            src="./assets/logos/logo_sayna_white y.png"
+            alt=""
+          />
+          <img src="./assets/logos/icon_x.png" alt="" />
+          <img
+            class="yellowTransition"
+            src="./assets/logos/icon_DC y.png"
+            alt=""
+          />
+        </div>
+
+        <div class="footerIcons">
+          <img
+            class="yellowTransition spaced"
+            src="./assets/logos/icon_facebook y.png"
+            alt=""
+          />
+          <img
+            class="yellowTransition spaced"
+            src="./assets/logos/icon_ig y.png"
+            alt=""
+          />
+          <img
+            class="yellowTransition spaced"
+            src="./assets/logos/icon_tw y.png"
+            alt=""
+          />
+        </div>
       </div>
     </footer>
 
@@ -392,6 +436,19 @@
           top: document.body.scrollHeight,
           behavior: "smooth",
         });
+      });
+
+      const heroButton = document.getElementById("hero-btn");
+      const cinemaDiv = document.getElementById("cinema");
+      const nemesisDiv = document.getElementById("nemesis");
+      const nemesisBtn = document.getElementById("nemesisBtn");
+
+      heroButton.addEventListener("click", () => {
+        cinemaDiv.scrollIntoView({ behavior: "smooth" });
+      });
+
+      nemesisBtn.addEventListener("click", () => {
+        nemesisDiv.scrollIntoView({ behavior: "smooth" });
       });
     </script>
   </body>

@@ -38,12 +38,16 @@ nav > div {
   justify-content: space-evenly;
 }
 
+.sectionsContent {
+  height: 13%;
+}
+
 #hero {
-  height: 117vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #hero-content {
@@ -52,6 +56,12 @@ nav > div {
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+#hanging {
+  position: absolute;
+  top: 297%;
+  left: 65%;
 }
 
 #hero-content > p {
@@ -330,7 +340,7 @@ button[type="submit"] {
 iframe {
   width: 75%;
   box-shadow: none;
-  transition: box-shadow 0.1 ease-in-out;
+  transition: box-shadow ease-in-out;
 }
 
 iframe:hover {
@@ -345,4 +355,32 @@ iframe:hover {
 
 .yellowTransition:hover {
   filter: grayscale(0%);
+}
+
+footer {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > p {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcons {
+  display: flex;
+  align-items: center;
+}
+
+#icons {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.spaced {
+  margin: 10%;
 }
